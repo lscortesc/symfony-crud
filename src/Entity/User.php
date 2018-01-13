@@ -2,8 +2,8 @@
 
 namespace App\Entity;
 
-use FOS\UserBundle\Model\User as FOSUser;
 use Doctrine\ORM\Mapping as ORM;
+use FOS\UserBundle\Model\User as FOSUser;
 
 /**
  * Class User

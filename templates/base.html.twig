@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
+        <title>{% block title %}Symfonyx{% endblock %}</title>
         <link rel="stylesheet" href="{{ asset('build/js/app.css') }}">
 
         {% block stylesheets %}{% endblock %}
@@ -10,7 +10,6 @@
     <body>
         {% include '_navbar.html.twig' %}
         {% block body %}{% endblock %}
-
 
         <script src="{{ asset('build/js/app.js') }}"></script>
         {% block javascripts %}{% endblock %}
